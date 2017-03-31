@@ -1,6 +1,4 @@
-
-function findShort(s){
-}//function to determine shortest word
+//function to determine shortest word
 function findShort (s) {
 
 //creating variables for words string and the shortest word
