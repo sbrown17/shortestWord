@@ -1,4 +1,6 @@
-//function to determine shortest word
+
+function findShort(s){
+}//function to determine shortest word
 function findShort (s) {
 
 //creating variables for words string and the shortest word
@@ -10,11 +12,8 @@ function findShort (s) {
 
         if(firstWord >= str[i].length){
             firstWord = str[i].length;
-        } else {
-        	return firstWord;
-        }
-
+        } 
+        
     }
-    
+    return firstWord;
 }
-
